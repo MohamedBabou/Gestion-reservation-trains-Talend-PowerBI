@@ -60,4 +60,25 @@ Si vous avez configuré un mot de passe pour l'utilisateur root, assurez-vous de
 Dans le fichier Talend **database_connection.properties**, vous devez spécifier les informations de connexion correctes pour accéder à la base de données MySQL. Assurez-vous que les paramètres de connexion correspondent à ceux de WampServer pour établir la connexion avec succès.
 ## Versions Prises en Charge
 Ce projet a été développé et testé avec MySQL 5 fourni par WampServer. Bien que cela devrait fonctionner avec d'autres versions de MySQL, nous recommandons d'utiliser la version mentionnée pour une compatibilité optimale.
+
 N'hésitez pas à personnaliser ces instructions en fonction de votre configuration spécifique et des versions que vous utilisez. Assurez-vous de fournir toutes les informations nécessaires aux utilisateurs pour configurer correctement leur serveur de base de données et établir la connexion avec succès pour utiliser l'application de gestion.
+# Visualisation des Données avec Power BI
+Dans ce projet, nous utilisons Power BI pour créer des visualisations à partir des données stockées dans la base de données "train_donnees". Pour faciliter la visualisation, nous fournissons les fichiers suivants :
+
+ ## MyDB.xlsx :
+ Ce fichier Excel contient les données que nous utilisons pour créer les visualisations dans Power BI. Il s'agit des données extraites de la base de données "train_donnees" et préparées spécifiquement pour cette étape de visualisation.
+
+## fichier.pbix :
+Ce fichier Power BI Desktop contient le rapport de visualisation que nous avons créé. Il est pré-configuré pour se connecter au fichier Excel mentionné ci-dessus et générer les visualisations correspondantes.
+
+## fichier.pdf : 
+Ce fichier PDF est une version statique du rapport Power BI. Vous pouvez l'utiliser pour visualiser les résultats sans avoir besoin d'installer Power BI Desktop.
+
+## Visualisation des Données
+Pour visualiser les données à l'aide du fichier Power BI :
+Assurez-vous d'avoir installé Power BI Desktop sur votre machine. Si vous ne l'avez pas déjà, vous pouvez le télécharger à partir du site officiel de Power BI (https://powerbi.microsoft.com/desktop/).
+Ouvrez Power BI Desktop et sélectionnez "Open" (Ouvrir) dans le menu pour ouvrir le fichier fichier.pbix.
+Une fois le rapport ouvert, Power BI se connectera automatiquement au fichier Excel fichier.xlsx pour générer les visualisations. Si le fichier Excel est déplacé, assurez-vous de spécifier le nouveau chemin d'accès des données dans Power BI.
+Explorez les différentes visualisations présentes dans le rapport pour obtenir des informations sur les données de "train_donnees". Vous pouvez interagir avec les graphiques, tableaux de bord et autres éléments pour obtenir des informations spécifiques.
+  
+Merci d'avoir utilisé ce projet de gestion ! Nous espérons que cela vous sera utile et que vous apprécierez l'utiliser dans vos projets. Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter.
